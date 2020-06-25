@@ -1,21 +1,21 @@
 Using Tuya Based lightbulbs to display the weather.
 
 
-This works with NodeRed and Home Assistant to control RGBWW Tuya based bulbs that have been flashed to ESPHome.  My bulbs are in a bedroom ceiling lamp and named light.bedroomrgb1 and light.bedroomrgb2 so if you have flashed to ESPHome this will be a drop in script if they are flashed with a name of bedroomrgb1 and bedroomrgb2 after you setup your Home Assistant in Node-Red and your API key in OpenWeatherMap
+This works with NodeRed and Home Assistant to control RGBWW Tuya based bulbs that have been flashed to ESPHome.  My bulbs are in a bedroom ceiling lamp and named light.bedroomrgb1 and light.bedroomrgb2 so if you have flashed to ESPHome this will be a drop in script if they are flashed with a name of bedroomrgb1 and bedroomrgb2 after you setup your Home Assistant in Node-Red and your API key in OpenWeatherMap.
 
-Outside of the inbuilt nodes I used the used nodes node-red-contrib-home-assistant-websocket, node-red-contrib-bigtimer, node-red-node-openweathermap
+Outside of the inbuilt nodes I used the used nodes node-red-contrib-home-assistant-websocket, node-red-contrib-bigtimer, node-red-node-openweathermap .
 
 This is placed for use by others who may be interested and want to try it.  It comes with no support or guarantee.
 
 https://esphome.io/cookbook/teckin_sb50.html information for the Tuya based Bulbs and the basic YAML used for compiling.
 
-https://www.home-assistant.io/  Home Assistant
+https://www.home-assistant.io/  Home Assistant.
 
-https://nodered.org/  NodeRed
+https://nodered.org/  NodeRed.
 
-https://github.com/ct-Open-Source/tuya-convert  Software to flash bulbs to ESPHome
+https://github.com/ct-Open-Source/tuya-convert  Software to flash bulbs to ESPHome.
 
-https://esphome.io/  ESPHome main page
+https://esphome.io/  ESPHome main page.
 
 You may want to make some minor tweaks to the config for the weather display.  For instance I live in an area with Tornado's so having the bulb come on bright red tells me something is up and I need to worry about it.  You can pull the information here and get the number code for the particular event you want to have a custom output.  https://openweathermap.org/weather-conditions
 
@@ -31,5 +31,5 @@ One idea I had was to break all the temps and weather types out and basically ma
 If you found this project helpful and want to throw a few bones my way I would greatly appreciate it.  You have a couple options to do so.  One is to make a purchase on Amazon using my affiliate link, donate through buy me a coffee, or toss a couple Satoshi to me using Bitcoin.
 
 https://amzn.to/2v74aiY  Amazon affiliate link, any purchases made after clicking this will help support the author.
-https://www.buymeacoffee.com/Slw0NRx donation link through Buy Me a Coffee
+https://www.buymeacoffee.com/Slw0NRx donation link through Buy Me a Coffee.
 17pEPchqZrjVHv8oN3jKMDZp23A24j4Jj  Bitcoin address for direct anonymous gifts.
